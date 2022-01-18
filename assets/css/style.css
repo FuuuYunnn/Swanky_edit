@@ -928,6 +928,14 @@ section {
   font-size: 14px;
 }
 
+.testimonials .testimonial-item .icon-box_no a {
+  color: #343a40;
+}
+.testimonials .testimonial-item .icon-box_no a:hover {
+  color: #E5A300;
+}
+
+
 .why-us .icon-box_no {
   margin-top: 0px;
 }
@@ -1435,7 +1443,7 @@ padding-bottom: 56.25%;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #343a40;
 }
 
 .testimonials .testimonial-item h4 {
