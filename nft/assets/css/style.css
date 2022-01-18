@@ -54,6 +54,41 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
+.banner-section {
+  margin-bottom: 100px;
+}
+
+.btn-section {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #FFF;
+  background:#222;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 1px solid #222;
+}
+
+.btn-get-started:hover {
+  background: #fff;
+  color: #E5A300;
+  border: 1px solid #E5A300;
+  text-decoration: none;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -453,6 +488,7 @@ progress {
     content: "\2014\00A0"; }
 
 .img-fluid {
+  align-items: center;
   max-width: 100%;
   height: auto; }
 
