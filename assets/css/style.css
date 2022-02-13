@@ -22,6 +22,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
 
+.btn-color {
+  background: #E5A300;
+  color: #fff;
+  border-color: #E5A300;
+  border-radius: 50px;
+}
+.btn-color:hover {
+  background: #000;
+  color: #F5C53B;
+  border-color: #000;
+  border-radius: 50px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
